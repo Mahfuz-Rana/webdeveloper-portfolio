@@ -7,6 +7,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -26,6 +27,9 @@ nav{
     font-size: 45px;
 }
 /* styles */
+.secondary-bg{
+    background-color: rgba(255, 248, 243, 1);
+}
 .dark-2{
     color:rgba(71, 71, 71, 1) ;
 }
@@ -53,6 +57,17 @@ nav ul li {
 nav li a {
     text-decoration: none;
 }
+.section-title{
+    font-size: 35px;
+    fopnt width: bold;
+    
+    color:rgba(24, 24, 24, 1);
+}
+.section-description{
+    font-size: 18px;
+    color:rgba(117, 117, 117, 1) ;
+}
+
 /* bannwer styles */
 .banneer-content{
     max-width: 585px;
@@ -79,3 +94,21 @@ nav li a {
     font-size: 18px;
     color: rgba(117, 117, 117, 1);
 }
+/* about */
+.about{
+    border-radius: 10px;
+    padding:130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-iteams{
+    display: flex;
+    justify-content: space-around;
+}
+/* main */
+main{
+     max-width: 1140px;
+    margin: 0 auto;
+}
+   
+    
